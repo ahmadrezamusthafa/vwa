@@ -2,8 +2,8 @@ package setup
 
 import(
 	"net/http"
-	"vwa/helper/middleware"
 	"github.com/julienschmidt/httprouter"
+	"tokopedia.se.training/Project2/vwa/helper/middleware"
 )
 
 type Self struct{}

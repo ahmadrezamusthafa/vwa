@@ -5,11 +5,12 @@ import(
 	"fmt"
 	"log"
 	"net/http"
-//	"html/template"
-	"vwa/util/render"
-	"vwa/util/session"
-	"vwa/util/database"
-	"vwa/helper/middleware"
+	"tokopedia.se.training/Project2/vwa/helper/middleware"
+	"tokopedia.se.training/Project2/vwa/util/database"
+	"tokopedia.se.training/Project2/vwa/util/render"
+	"tokopedia.se.training/Project2/vwa/util/session"
+
+	//	"html/template"
 	"github.com/julienschmidt/httprouter"
 )
 

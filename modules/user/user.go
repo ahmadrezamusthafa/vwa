@@ -9,12 +9,11 @@ import (
 	"crypto/md5"
 	"database/sql"
 	"encoding/hex"
-
-	"vwa/util/render"
-	"vwa/helper/httphelper"
-	"vwa/util/session"
-	"vwa/util/database"
-	"vwa/helper/middleware"
+	"tokopedia.se.training/Project2/vwa/helper/httphelper"
+	"tokopedia.se.training/Project2/vwa/helper/middleware"
+	"tokopedia.se.training/Project2/vwa/util/database"
+	"tokopedia.se.training/Project2/vwa/util/render"
+	"tokopedia.se.training/Project2/vwa/util/session"
 
 	"github.com/julienschmidt/httprouter"
 )

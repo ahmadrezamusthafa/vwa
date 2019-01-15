@@ -1,6 +1,6 @@
 {
     "user": "postgres",
-    "password": "helloworld",
+    "password": "reza",
     "dbname": "vwa",
     "sqlhost": "localhost",
     "sqlport": "5432",

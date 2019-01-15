@@ -40,7 +40,7 @@ CREATE TABLE komentar (
 );
 
 
-ALTER TABLE public.komentar OWNER TO vwa;
+ALTER TABLE public.komentar OWNER TO postgres;
 
 --
 -- Name: komentar_id_komentar_seq; Type: SEQUENCE; Schema: public; Owner: vwa
@@ -54,7 +54,7 @@ CREATE SEQUENCE komentar_id_komentar_seq
     CACHE 1;
 
 
-ALTER TABLE public.komentar_id_komentar_seq OWNER TO vwa;
+ALTER TABLE public.komentar_id_komentar_seq OWNER TO postgres;
 
 --
 -- Name: komentar_id_komentar_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: vwa

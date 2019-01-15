@@ -3,12 +3,12 @@ package main
 import (
 	"fmt"
 	"net/http"
-	"vwa/util"
-	"vwa/util/render"
-	"vwa/helper/middleware"
-	"vwa/modules/user"
-	"vwa/modules/user/profile"
-	"vwa/modules/product/komentar"
+	"tokopedia.se.training/Project2/vwa/helper/middleware"
+	"tokopedia.se.training/Project2/vwa/modules/product/komentar"
+	"tokopedia.se.training/Project2/vwa/modules/user"
+	"tokopedia.se.training/Project2/vwa/modules/user/profile"
+	"tokopedia.se.training/Project2/vwa/util"
+	"tokopedia.se.training/Project2/vwa/util/render"
 
 	"github.com/julienschmidt/httprouter"
 )

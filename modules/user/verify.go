@@ -3,12 +3,12 @@ package user
 import (
 	"fmt"
 	"log"
+	"tokopedia.se.training/Project2/vwa/util"
+	"tokopedia.se.training/Project2/vwa/util/database"
+	"tokopedia.se.training/Project2/vwa/util/render"
+	"tokopedia.se.training/Project2/vwa/util/session"
 
 	"net/http"
-	"vwa/util"
-	"vwa/util/render"
-	"vwa/util/session"
-	"vwa/util/database"
 
 	"github.com/julienschmidt/httprouter"
 )

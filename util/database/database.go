@@ -3,8 +3,8 @@ package database
 import(
 	"fmt"
 	"database/sql"
-	"vwa/util"
 	_ "github.com/lib/pq"
+	"tokopedia.se.training/Project2/vwa/util"
 )
 
 

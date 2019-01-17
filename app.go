@@ -44,6 +44,6 @@ func main(){
 	}
 
 	fmt.Printf("Server running at port %s\n", s.Addr)
-	fmt.Printf("Open this url %s on your browser to access VWA",util.Fullurl)
+	fmt.Printf("Open this url %s on your browser to access VWA\n",util.Fullurl)
 	s.ListenAndServe()
 }

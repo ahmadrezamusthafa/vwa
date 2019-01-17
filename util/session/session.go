@@ -25,7 +25,7 @@ func (Session *Session) SetSession(w http.ResponseWriter, r *http.Request, data 
 	session.Options = &sessions.Options{
 		Path:     "/",
 		MaxAge:   3600,
-		HttpOnly: false,
+		HttpOnly: true,
 	}
 
 	session.Values["vwa_session"] = true

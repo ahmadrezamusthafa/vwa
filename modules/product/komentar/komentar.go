@@ -3,6 +3,7 @@ package komentar
 import(
 
 	"fmt"
+	"html/template"
 	"log"
 	"net/http"
 	"tokopedia.se.training/Project2/vwa/helper/middleware"
@@ -107,10 +108,10 @@ func VerifyUserHandler(w http.ResponseWriter, r *http.Request, ps httprouter.Par
 func SaveKomentarHandler(w http.ResponseWriter, r *http.Request, ps httprouter.Params){
 	
 	isiKomentar := r.FormValue("isikomentar")
-	//filter := template.HTMLEscapeString(isiKomentar)
+	filter := template.HTMLEscapeString(isiKomentar)
 	uid := r.FormValue("uid")
 
-	ok := SaveKomentar(uid, isiKomentar)
+	ok := SaveKomentar(uid, filter)
 	if !ok{
 		resp := struct{
 			Body string `json:"body"`
